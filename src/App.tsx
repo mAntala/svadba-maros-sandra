@@ -3,6 +3,7 @@ import { Box, Container } from '@mui/material';
 import Hero from './components/Hero';
 import Nav from './components/Nav';
 import Schedule from './components/Schedule';
+import Info from './components/Info';
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
                 <Nav />
                 <Container component="main" maxWidth={false} disableGutters>
                     <Schedule />
+                    <Info />
                 </Container>
             </Container>
         </Box>

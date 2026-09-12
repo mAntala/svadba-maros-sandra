@@ -9,9 +9,6 @@ function Nav() {
 
     return (
         <nav>
-            <a href="#home" onClick={handleOnClick}>
-                Úvod
-            </a>
             <a href="#harmonogram" onClick={handleOnClick}>
                 Harmonogram
             </a>

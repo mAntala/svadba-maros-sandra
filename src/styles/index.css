@@ -32,8 +32,15 @@ h2 {
 }
 
 h3 {
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 nav {
@@ -71,8 +78,18 @@ nav a:hover::before {
     background-color: #F9D2BA;
 }
 
+.bg-cream {
+    background-color: #F7EAE0;
+}
+
 .bg-dark h3 {
     color: #f7eae0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.bg-cream h3 {
+    color: #5e3122;
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -130,7 +147,7 @@ nav a:hover::before {
 }
 
 .schedule {
-    padding: 1rem 0;
+    padding: 3rem 0;
 }
 
 .timeline__item {
@@ -185,6 +202,20 @@ nav a:hover::before {
     color: #5e3122;
 }
 
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.info-item {
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
 /* Ressponsive rules */
 
 @media screen and (max-width: 767px) {
@@ -216,5 +247,9 @@ nav a:hover::before {
         bottom: auto;
         top: 0;
         left: 0;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
     }
 }
