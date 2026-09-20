@@ -4,7 +4,7 @@ function InfoItem({ title, text }: { title: string; text: React.ReactNode }) {
     return (
         <Container component="section" className="info-item">
             <h4>{title}</h4>
-            <div>{text}</div>
+            <div dangerouslySetInnerHTML={{ __html: text as string }} />
         </Container>
     );
 }

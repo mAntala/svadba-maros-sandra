@@ -14,7 +14,7 @@ function Timeline() {
             />
             <TimelineItem
                 icon={<WineGlassIcon width={128} height={128} stroke="#5e3122" />}
-                time="16:00 - Hostina, zábava (kurvy, chlast & chlebíčky)"
+                time="15:30 - Hostina, zábava"
                 text="Hotel Dávid, Bošany"
             />
             <TimelineItem
