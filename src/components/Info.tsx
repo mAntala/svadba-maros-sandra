@@ -2,6 +2,7 @@ import { Container } from '@mui/material';
 import InfoItem from './InfoItem';
 
 import hotelImage from '../assets/mapa-hotel-david.jpg';
+import kostolImage from '../assets/mapa-kostol.jpg';
 
 function Info() {
     return (
@@ -10,11 +11,13 @@ function Info() {
             <section className="info-grid">
                 <InfoItem
                     title="Parkovanie - sobáš"
-                    text="
+                    text={`
                     <p>Parkovanie je možné pred kostolom, na pozdĺžnych parkovacích miestach.</p>
                     <p>Taktiež je možné parkovať neďaleko na parkovisku za kostolom - cca 3 minúty chôdze. <a href='https://maps.app.goo.gl/dA6n67fwiZySdsTb6' target='_blank'>[Klik pre trasu]</a></p>
                     <p><b>Neodporúčam parkovať vo vnútornom dvore oproti kostolu, je to súkromný pozemok.</b></p>
-                    <p><b>Neďaleko kostola je aj Hotel Arkádia. Počas víkendu síce parkovisko je, no nemalo by sa tam parkovať okrem hostí hotela.</b></p>"
+                    <p><b>Neďaleko kostola je aj Hotel Arkádia. Počas víkendu síce parkovisko je zdarma, no nemalo by sa tam parkovať okrem hostí hotela.</b></p>
+                    <img src='${kostolImage}' width='960' height='496' alt='Mapa kostola' />
+                    `}
                 />
                 <InfoItem
                     title="Hostina"
@@ -26,7 +29,7 @@ function Info() {
                 />
                 <InfoItem
                     title="Ubytovanie"
-                    text="<p>Hostia, ktorí majú zabezpečené ubytovanie v hoteli, sa budú môcť ubytovať kedykoľvek počas hostiny, stačí sa ozvať čašníkom.</p><p>Ubytovaní hostia majú zabezpečené raňajky.</p>"
+                    text="<p>Hostia, ktorí majú zabezpečené ubytovanie v hoteli, sa budú môcť ubytovať kedykoľvek počas hostiny, stačí sa opýtať čašníkov.</p><p>Ubytovaní hostia majú zabezpečené raňajky.</p>"
                 />
             </section>
         </Container>

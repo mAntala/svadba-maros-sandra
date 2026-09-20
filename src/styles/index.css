@@ -40,7 +40,6 @@ h3 {
 h4 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
-    margin-bottom: 1rem;
 }
 
 nav {
@@ -200,6 +199,10 @@ nav a:hover::before {
 .timeline__content h4,
 .timeline__content p {
     color: #5e3122;
+}
+
+.timeline__content h4 + p{
+    margin-top: 1.5rem;
 }
 
 .info-grid {

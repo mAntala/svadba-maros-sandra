@@ -7,14 +7,14 @@ function TimelineItem({
 }: {
     icon: React.ReactNode;
     time: string;
-    text: React.ReactNode;
+    text?: React.ReactNode;
 }) {
     return (
         <Container component="section" className="timeline__item">
             <section className="timeline__icon">{icon}</section>
             <section className="timeline__content">
                 <h4>{time}</h4>
-                <p>{text}</p>
+                {text && <p>{text}</p>}
             </section>
         </Container>
     );

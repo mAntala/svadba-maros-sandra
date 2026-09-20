@@ -9,6 +9,11 @@ function Timeline() {
         <Container disableGutters className="timeline">
             <TimelineItem
                 icon={<ChurchIcon width={128} height={128} stroke="#5e3122" />}
+                time="13:30 - Príchod hostí pred kostol"
+                text="Príchod hostí pred kostol"
+            />
+            <TimelineItem
+                icon={<ChurchIcon width={128} height={128} stroke="#5e3122" />}
                 time="14:00 - Sobáš"
                 text="Evanjelický kostol Bánovce nad Bebravou"
             />
@@ -20,7 +25,6 @@ function Timeline() {
             <TimelineItem
                 icon={<BellIcon width={128} height={128} stroke="#5e3122" />}
                 time="23:00 - Čepčenie"
-                text="Oj bisťu šuhaj a devočka si sadnú spolu a dostanu kroj"
             />
         </Container>
     );
