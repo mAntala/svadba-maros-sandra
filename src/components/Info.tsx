@@ -16,7 +16,7 @@ function Info() {
                     <p>Taktiež je možné parkovať neďaleko na parkovisku za kostolom - cca 3 minúty chôdze. <a href='https://maps.app.goo.gl/dA6n67fwiZySdsTb6' target='_blank'>[Klik pre trasu]</a></p>
                     <p><b>Neodporúčam parkovať vo vnútornom dvore oproti kostolu, je to súkromný pozemok.</b></p>
                     <p><b>Neďaleko kostola je aj Hotel Arkádia. Počas víkendu síce parkovisko je zdarma, no nemalo by sa tam parkovať okrem hostí hotela.</b></p>
-                    <img src='${kostolImage}' width='960' height='496' alt='Mapa kostola' />
+                    <img src='${kostolImage}' width='960' height='496' alt='Mapa kostola' loading='lazy' />
                     `}
                 />
                 <InfoItem
@@ -24,7 +24,7 @@ function Info() {
                     text={`
                 <p>Hostina sa koná v Hoteli Dávid, Bošany <a href='https://maps.app.goo.gl/UxvMAFy1xL9EeYqU7' target='_blank'>[Klik pre trasu]</a></p>
                 <p><b>Prosíme hostí, aby primárne parkovali na parkovisku pozdĺž cesty pred hotelom, až v krajnom prípade využili parkovanie v priestoroch hotela.</b></p>
-                <img src='${hotelImage}' width='960' height='496' alt='Mapa hotela Dávid' />
+                <img src='${hotelImage}' width='960' height='496' alt='Mapa hotela Dávid' loading='lazy' />
                 `}
                 />
                 <InfoItem
