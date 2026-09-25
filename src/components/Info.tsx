@@ -29,7 +29,11 @@ function Info() {
                 />
                 <InfoItem
                     title="Ubytovanie"
-                    text="<p>Hostia, ktorí majú zabezpečené ubytovanie v hoteli, sa budú môcť ubytovať kedykoľvek počas hostiny, stačí sa opýtať čašníkov.</p><p>Ubytovaní hostia majú zabezpečené raňajky.</p>"
+                    text={`
+                <p>Hostia, ktorí majú zabezpečené ubytovanie v hoteli, sa budú môcť ubytovať kedykoľvek počas hostiny, stačí sa opýtať čašníkov.</p>
+                <p>Ubytovaní hostia majú zabezpečené raňajky.</p>
+                <p>Raňajky začínajú o 9:00.</p>
+                `}
                 />
             </section>
         </Container>

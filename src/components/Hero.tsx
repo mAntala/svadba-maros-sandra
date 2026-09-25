@@ -9,7 +9,7 @@ function Hero() {
                 <img className="hero__image" src={heroImage} width="100%" />
                 <section className="hero__content">
                     <h1>Alexandra & Maroš</h1>
-                    <h2>10. októbra 2026, Bošany</h2>
+                    <h2>10. októbra 2026</h2>
                 </section>
             </Box>
         </>
