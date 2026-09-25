@@ -218,6 +218,10 @@ nav a:hover::before {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.info-item h4 {
+    margin-bottom: 1rem;
+}
+
 .info-item a {
     color: #5e3122;
     font-weight: bold;

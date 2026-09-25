@@ -15,7 +15,7 @@ function Info() {
                     <p>Parkovanie je možné pred kostolom, na pozdĺžnych parkovacích miestach.</p>
                     <p>Taktiež je možné parkovať neďaleko na parkovisku za kostolom - cca 3 minúty chôdze. <a href='https://maps.app.goo.gl/dA6n67fwiZySdsTb6' target='_blank'>[Klik pre trasu]</a></p>
                     <p><b>Neodporúčam parkovať vo vnútornom dvore oproti kostolu, je to súkromný pozemok.</b></p>
-                    <p><b>Neďaleko kostola je aj Hotel Arkádia. Počas víkendu síce parkovisko je zdarma, no nemalo by sa tam parkovať okrem hostí hotela.</b></p>
+                    <p><b>Neďaleko kostola je aj Hotel Arkádia. Počas víkendu je síce parkovisko zdarma, no nemalo by sa tam parkovať okrem hostí hotela.</b></p>
                     <img src='${kostolImage}' width='960' height='496' alt='Mapa kostola' loading='lazy' />
                     `}
                 />
