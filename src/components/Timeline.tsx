@@ -8,7 +8,7 @@ function Timeline() {
         <Container disableGutters className="timeline">
             <TimelineItem
                 icon={<ChurchIcon width={128} height={128} stroke="#5e3122" />}
-                time="13:30 - Príchod hostí pred kostol"
+                time="13:30-13:50 - Príchod hostí pred kostol"
                 text="Príchod hostí pred kostol"
             />
             <TimelineItem
